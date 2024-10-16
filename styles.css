@@ -47,11 +47,10 @@
     .fieldset {
         width: 55vh; 
         border-radius: 10px;
-        white-space: nowrap;
     }
 
     .fieldsetDois {
-        width: 71.6vh; 
+        width: 55vh; 
         border-radius: 10px;
     }
 
