@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Little Lemon</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: gainsboro;">
+        <header>
+            <div class="imagem" style="margin-left: 10vh; margin-right: 10vh;">
+                <img src="/imagens/little-lemon-store-logo-1.png" alt="logo" style="height: 40vh; ">
+            </div>
+            <div class="links-de-navegacao" style="margin-left: 15.5vh; margin-right: 15.5vh; margin-top: 1vh; margin-bottom: 5vh; white-space: nowrap;">
+                <nav>
+                    <a href="/" style="text-decoration: none; color: brown;">Home</a>
+                    <a href="/location.html" style="text-decoration: none; color: brown;">Location</a>
+                    <a href="/blog.html" style="text-decoration: none; color: brown;">Blog</a>
+                </nav>
+            </div>
+            <div class="titulo" style="color: brown; margin-left: 15.8vh; margin-right: 15.8vh; white-space: nowrap;">
+                <h2>Book a Table</h2>
+            </div>
+        </header>
+        <main>
+            <form method="post">
+                <fieldset id="size">
+                    <input type="radio" value="2" name="size" checked> 2 - Person Table
+                    <input type="radio" value="3" name="size"> 3 - Person Table
+                    <input type="radio" value="4" name="size"> 4 - Person Table
+                </fieldset>
+                <fieldset id="location">
+                    <input type="radio" value="indoors" name="location" checked> Indoors
+                    <input type="radio" value="outdoors" name="location"> Outdoors
+                    <input type="radio" value="7" name="location"> 7 - Person Table
+                </fieldset>
+                <div class="botao" style="margin-left: 23vh;">
+                    <button type="submit" style="height: 5vh;">Book table</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="legenda" style="margin-left: 15.5vh;">
+                <p>Copyright Little Lemon</p>
+            </div>
+        </footer>
+    </body>
+</html>
