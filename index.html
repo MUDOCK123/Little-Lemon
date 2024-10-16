@@ -4,26 +4,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Little Lemon</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body style="background-color: gainsboro;">
+    <body class="body">
         <header>
-            <div class="imagem" style="margin-left: 10vh; margin-right: 10vh;">
-                <img src="/imagens/little-lemon-store-logo-1.png" alt="logo" style="height: 40vh; ">
+            <div class="imagem">
+                <img src="/imagens/little-lemon-store-logo-1.png" alt="logo" class="imagemUm">
             </div>
-            <div class="links-de-navegacao" style="margin-left: 15.5vh; margin-right: 15.5vh; margin-top: 1vh; margin-bottom: 5vh; white-space: nowrap;">
+            <div class="links-de-navegacao">
                 <nav>
-                    <a href="/" style="text-decoration: none; color: brown;">Home</a>
-                    <a href="/location.html" style="text-decoration: none; color: brown;">Location</a>
-                    <a href="/blog.html" style="text-decoration: none; color: brown;">Blog</a>
+                    <a href="/" class="home">Home</a>
+                    <a href="/location.html" class="location">Location</a>
+                    <a href="/blog.html" class="blog">Blog</a>
                 </nav>
             </div>
-            <div class="titulo" style="color: brown; margin-left: 15.8vh; margin-right: 15.8vh; white-space: nowrap;">
+            <div class="titulo">
                 <h2>Book a Table</h2>
             </div>
         </header>
         <main>
             <form method="post">
-                <fieldset id="size" style="width: 55vh; border-radius: 10px;">
+                <fieldset id="size" class="fieldset">
                     <label>
                         <input type="radio" value="2" name="size" checked> 2 - Person Table
                     </label>
@@ -34,8 +35,8 @@
                         <input type="radio" value="4" name="size"> 4 - Person Table
                     </label>
                 </fieldset>
-                <fieldset id="location" style="width: 55vh; border-radius: 10px;">
-                    <div class="doisRadios" style="margin-left: 11vh;">
+                <fieldset id="location" class="fieldsetDois">
+                    <div class="doisRadios">
                         <label>
                             <input type="radio" value="indoors" name="location" checked> Indoors
                         </label>
@@ -44,13 +45,13 @@
                         </label>                        
                     </div>
                 </fieldset>
-                <div class="botao" style="margin-left: 23vh; margin-top: 10px;">
-                    <button type="submit" style="height: 5vh;">Book table</button>
+                <div class="botao">
+                    <button type="submit" class="botaoDois">Book table</button>
                 </div>
             </form>
         </main>
         <footer>
-            <div class="legenda" style="margin-left: 15.5vh;">
+            <div class="legenda">
                 <p>Copyright Little Lemon</p>
             </div>
         </footer>

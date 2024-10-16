@@ -1,0 +1,146 @@
+/* Estilos para telas grandes (Desktop) */
+@media screen and (min-width: 1024px) {
+    .body {
+        background-color: gainsboro; 
+        margin-left: 85.5vh;
+    }
+
+    .imagem {
+        margin-left: 10vh; 
+        margin-right: 10vh;
+    }
+
+    .imagemUm {
+        height: 40vh;
+    }
+
+    .links-de-navegacao {
+        margin-left: 15.5vh; 
+        margin-right: 15.5vh; 
+        margin-top: 1vh; 
+        margin-bottom: 5vh; 
+        white-space: nowrap;
+    }
+
+    .home {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .location {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .blog {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .titulo {
+        color: brown; 
+        margin-left: 15.8vh; 
+        margin-right: 15.8vh; 
+        white-space: nowrap;
+    }
+
+    .fieldset {
+        width: 55vh; 
+        border-radius: 10px;
+    }
+
+    .fieldsetDois {
+        width: 55vh; 
+        border-radius: 10px;
+    }
+
+    .doisRadios {
+        margin-left: 11vh;
+    }
+
+    .botao {
+        margin-left: 23vh; 
+        margin-top: 10px;
+    }
+
+    .botaoDois {
+        height: 5vh;
+    }
+
+    .legenda {
+        margin-left: 15.5vh;
+    }
+}
+
+/* Estilos para telas pequenas (Mobile) */
+@media screen and (max-width: 1023px) {
+    .body {
+        background-color: gainsboro; 
+    }
+
+    .imagem {
+        margin-left: 10vh; 
+        margin-right: 10vh;
+    }
+
+    .imagemUm {
+        height: 40vh;
+    }
+
+    .links-de-navegacao {
+        margin-left: 15.5vh; 
+        margin-right: 15.5vh; 
+        margin-top: 1vh; 
+        margin-bottom: 5vh; 
+        white-space: nowrap;
+    }
+
+    .home {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .location {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .blog {
+        text-decoration: none; 
+        color: brown;
+    }
+
+    .titulo {
+        color: brown; 
+        margin-left: 15.8vh; 
+        margin-right: 15.8vh; 
+        white-space: nowrap;
+    }
+
+    .fieldset {
+        width: 55vh; 
+        border-radius: 10px;
+    }
+
+    .fieldsetDois {
+        width: 55vh; 
+        border-radius: 10px;
+    }
+
+    .doisRadios {
+        margin-left: 11vh;
+    }
+
+    .botao {
+        margin-left: 23vh; 
+        margin-top: 10px;
+    }
+
+    .botaoDois {
+        height: 5vh;
+    }
+
+    .legenda {
+        margin-left: 15.5vh;
+    }
+}

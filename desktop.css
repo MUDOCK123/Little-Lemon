@@ -1,0 +1,24 @@
+/* Estilos para telas grandes (Desktop) */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header {
+        font-size: 3rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sidebar {
+        width: 30%;
+    }
+
+    .main-content {
+        width: 65%;
+    }
+}
