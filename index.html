@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Little Lemon</title>
-        <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color: gainsboro;">
         <header>
@@ -25,14 +24,24 @@
         <main>
             <form method="post">
                 <fieldset id="size" style="width: 55vh; border-radius: 10px;">
-                    <input type="radio" value="2" name="size" checked> 2 - Person Table
-                    <input type="radio" value="3" name="size"> 3 - Person Table
-                    <input type="radio" value="4" name="size"> 4 - Person Table
+                    <label>
+                        <input type="radio" value="2" name="size" checked> 2 - Person Table
+                    </label>
+                    <label>
+                        <input type="radio" value="3" name="size"> 3 - Person Table
+                    </label>
+                    <label>
+                        <input type="radio" value="4" name="size"> 4 - Person Table
+                    </label>
                 </fieldset>
                 <fieldset id="location" style="width: 55vh; border-radius: 10px;">
                     <div class="doisRadios" style="margin-left: 11vh;">
-                        <input type="radio" value="indoors" name="location" checked> Indoors
-                        <input type="radio" value="outdoors" name="location"> Outdoors
+                        <label>
+                            <input type="radio" value="indoors" name="location" checked> Indoors
+                        </label>
+                        <label>
+                            <input type="radio" value="outdoors" name="location"> Outdoors
+                        </label>                        
                     </div>
                 </fieldset>
                 <div class="botao" style="margin-left: 23vh; margin-top: 10px;">
