@@ -1,146 +1,137 @@
-/* Estilos para telas grandes (Desktop) */
-@media screen and (min-width: 1024px) {
-    .body {
-        background-color: gainsboro; 
-        margin-left: 85.5vh;
-    }
-
-    .imagem {
-        margin-left: 10vh; 
-        margin-right: 10vh;
-    }
-
-    .imagemUm {
-        height: 40vh;
-    }
-
-    .links-de-navegacao {
-        margin-left: 15.5vh; 
-        margin-right: 15.5vh; 
-        margin-top: 1vh; 
-        margin-bottom: 5vh; 
-        white-space: nowrap;
-    }
-
-    .home {
-        text-decoration: none; 
-        color: brown;
-    }
-
-    .location {
-        text-decoration: none; 
-        color: brown;
-    }
-
-    .blog {
-        text-decoration: none; 
-        color: brown;
-    }
-
-    .titulo {
-        color: brown; 
-        margin-left: 15.8vh; 
-        margin-right: 15.8vh; 
-        white-space: nowrap;
-    }
-
-    .fieldset {
-        width: 55vh; 
-        border-radius: 10px;
-    }
-
-    .fieldsetDois {
-        width: 55vh; 
-        border-radius: 10px;
-    }
-
-    .doisRadios {
-        margin-left: 11vh;
-    }
-
-    .botao {
-        margin-left: 23vh; 
-        margin-top: 10px;
-    }
-
-    .botaoDois {
-        height: 5vh;
-    }
-
-    .legenda {
-        margin-left: 15.5vh;
-    }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(220, 220, 220, 0.441);
 }
 
-/* Estilos para telas pequenas (Mobile) */
-@media screen and (max-width: 1023px) {
-    .body {
-        background-color: gainsboro; 
-    }
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-    .imagem {
-        margin-left: 10vh; 
-        margin-right: 10vh;
-    }
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
 
-    .imagemUm {
-        height: 40vh;
-    }
+a:hover {
+    color: aquamarine;
+}
 
-    .links-de-navegacao {
-        margin-left: 15.5vh; 
-        margin-right: 15.5vh; 
-        margin-top: 1vh; 
-        margin-bottom: 5vh; 
-        white-space: nowrap;
-    }
+nav {
+    background-color: #000000a9;
+    border-radius: 10px;
+    height: 45px;
+    width: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .home {
-        text-decoration: none; 
-        color: brown;
-    }
+.div {
+    margin-top: 5vh;
+    margin-left: 47vh;
+}
 
-    .location {
-        text-decoration: none; 
-        color: brown;
-    }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    .blog {
-        text-decoration: none; 
-        color: brown;
-    }
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
 
-    .titulo {
-        color: brown; 
-        margin-left: 15.8vh; 
-        margin-right: 15.8vh; 
-        white-space: nowrap;
-    }
+main {
+    padding: 20px;
+}
 
-    .fieldset {
-        width: 55vh; 
-        border-radius: 10px;
-    }
+.banner {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+}
 
-    .fieldsetDois {
-        width: 55vh; 
-        border-radius: 10px;
-    }
+.imagem {
+    border-radius: 20px;
+    width: 187vh;
+}
 
-    .doisRadios {
-        margin-left: 11vh;
-    }
+.imagens {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente se necessário */
+    margin-top: 20px; /* Espaçamento superior para a seção */
+}
 
-    .botao {
-        margin-left: 23vh; 
-        margin-top: 10px;
-    }
+.colunas {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between; /* Ajusta o espaço entre as colunas */
+}
 
-    .botaoDois {
-        height: 5vh;
-    }
 
-    .legenda {
-        margin-left: 15.5vh;
-    }
+.coluna img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.colunaUm {
+    border-radius: 20px;
+    background-color: rgba(255, 85, 0, 0.098);
+    border-width: 2px;
+    width: 55vh;
+    height: 80vh;
+}
+
+.colunaUm img {
+    margin-top: 1vh;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+
+.colunaDois {
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 85, 0, 0.098);
+    border-width: 2px;
+    width: 55vh;
+    height: 80vh; 
+}
+
+.colunaDois img {
+    margin-top: 1vh;
+    margin-left: 11px;
+    border-radius: 10px;
+}
+
+.colunaTres {
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 85, 0, 0.098);
+    border-width: 2px;
+    width: 55vh;
+    height: 80vh;
+}
+
+.colunaTres img {
+    margin-top: 1vh;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 10vh;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

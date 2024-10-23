@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Little Lemon</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body class="body">
-        <header>
-            <div class="imagem">
-                <img src="/imagens/little-lemon-store-logo-1.png" alt="logo" class="imagemUm">
-            </div>
-            <div class="links-de-navegacao">
-                <nav>
-                    <a href="/" class="home">Home</a>
-                    <a href="/location.html" class="location">Location</a>
-                    <a href="/blog.html" class="blog">Blog</a>
-                </nav>
-            </div>
-            <div class="titulo">
-                <h2>Book a Table</h2>
-            </div>
-        </header>
-        <main>
-            <form method="post">
-                <fieldset id="size" class="fieldset">
-                    <label>
-                        <input type="radio" value="2" name="size" checked> 2 - Person Table
-                    </label>
-                    <label>
-                        <input type="radio" value="3" name="size"> 3 - Person Table
-                    </label>
-                    <label>
-                        <input type="radio" value="4" name="size"> 4 - Person Table
-                    </label>
-                </fieldset>
-                <fieldset id="location" class="fieldsetDois">
-                    <div class="doisRadios">
-                        <label>
-                            <input type="radio" value="indoors" name="location" checked> Indoors
-                        </label>
-                        <label>
-                            <input type="radio" value="outdoors" name="location"> Outdoors
-                        </label>                        
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./imagens/Captura de tela 2024-10-23 141206.png" alt="logo">
+        <div class="div"> 
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <img class="imagem" src="./imagens/Captura de tela 2024-10-23 150221.png" alt="produto">
+        </section>
+        <section class="imagens">
+            <div class="colunas">
+                <div class="colunaUm">
+                    <div class="coluna">
+                        <h2>Parte 1</h2>
+                        <img src="./imagens/image.png" alt="Prato 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                </fieldset>
-                <div class="botao">
-                    <button type="submit" class="botaoDois">Book table</button>
                 </div>
-            </form>
-        </main>
-        <footer>
-            <div class="legenda">
-                <p>Copyright Little Lemon</p>
+                <div class="colunaDois">
+                    <div class="coluna">
+                        <h2>Parte 2</h2>
+                        <img src="./imagens/Captura de tela 2024-10-23 143652.png" alt="Prato 2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="colunaTres">
+                    <div class="coluna">
+                        <h2>Parte 3</h2>
+                        <img src="./imagens/Captura de tela 2024-10-23 143706.png" alt="Prato 3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </body>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Little Lemon. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
