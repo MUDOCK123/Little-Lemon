@@ -8,7 +8,12 @@ body {
 header {
     color: white;
     padding: 20px;
-    text-align: center;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -33,7 +38,9 @@ nav {
 
 .div {
     margin-top: 5vh;
-    margin-left: 47vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
