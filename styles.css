@@ -99,13 +99,11 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh;
-    transition: transform 0.3s, opacity 0.3s;
-    opacity: 0.8;
+    transition: transform 0.3s;
 }
 
 .colunaUm:hover {
     transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
-    opacity: 1; /* Torna o card completamente visível */
     cursor: pointer;
 }
 
@@ -122,13 +120,11 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh; 
-    transition: transform 0.3s, opacity 0.3s;
-    opacity: 0.8;
+    transition: transform 0.3s;
 }
 
 .colunaDois:hover {
     transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
-    opacity: 1; /* Torna o card completamente visível */
     cursor: pointer;
 }
 
@@ -145,13 +141,11 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh;
-    transition: transform 0.3s, opacity 0.3s;
-    opacity: 0.8;
+    transition: transform 0.3s;
 }
 
 .colunaTres:hover {
     transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
-    opacity: 1; /* Torna o card completamente visível */
     cursor: pointer;
 }
 
