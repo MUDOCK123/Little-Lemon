@@ -67,6 +67,12 @@ main {
 .imagem {
     border-radius: 20px;
     width: 187vh;
+    transition: transform 0.3s;
+}
+
+.imagem:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
+    cursor: pointer;
 }
 
 .imagens {
@@ -82,7 +88,6 @@ main {
     justify-content: space-between; /* Ajusta o espaço entre as colunas */
 }
 
-
 .coluna img {
     max-width: 100%;
     height: auto; /* Mantém a proporção da imagem */
@@ -94,6 +99,14 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0.8;
+}
+
+.colunaUm:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
+    opacity: 1; /* Torna o card completamente visível */
+    cursor: pointer;
 }
 
 .colunaUm img {
@@ -109,6 +122,14 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh; 
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0.8;
+}
+
+.colunaDois:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
+    opacity: 1; /* Torna o card completamente visível */
+    cursor: pointer;
 }
 
 .colunaDois img {
@@ -124,6 +145,14 @@ main {
     border-width: 2px;
     width: 55vh;
     height: 80vh;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0.8;
+}
+
+.colunaTres:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do card ao passar o mouse */
+    opacity: 1; /* Torna o card completamente visível */
+    cursor: pointer;
 }
 
 .colunaTres img {
